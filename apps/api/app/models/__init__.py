@@ -17,3 +17,4 @@ __all__ = [
     "Tenant",
     "User",
 ]
+"""Application models package scaffold."""

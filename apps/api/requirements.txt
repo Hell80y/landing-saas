@@ -2,3 +2,12 @@ alembic==1.14.1
 psycopg[binary]==3.2.6
 pydantic-settings==2.7.1
 SQLAlchemy==2.0.38
+fastapi==0.111.1
+uvicorn[standard]==0.30.3
+pydantic==2.8.2
+pydantic-settings==2.3.4
+sqlmodel==0.0.21
+sqlalchemy==2.0.31
+alembic==1.13.2
+psycopg[binary]==3.2.1
+redis==5.0.7
