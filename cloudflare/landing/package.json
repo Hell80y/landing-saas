@@ -1,15 +1,12 @@
 {
-  "name": "landing-runtime",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "check": "tsc --noEmit"
   "name": "@landing-saas/cloudflare-landing",
   "private": true,
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit"
   },
   "devDependencies": {
     "typescript": "5.5.4",

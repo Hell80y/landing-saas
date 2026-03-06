@@ -1,13 +1,14 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Landing SaaS Dashboard',
-  description: 'Create, generate and publish landing pages.'
+  description: 'Create, generate and publish landing pages.',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
@@ -26,13 +27,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main className="mx-auto max-w-6xl px-6 py-8">{children}</main>
       </body>
-import "../styles/globals.css";
-import type { ReactNode } from "react";
-
-export default function RootLayout({ children }: { children: ReactNode }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
     </html>
   );
 }
