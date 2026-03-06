@@ -27,3 +27,11 @@ celery -A workers.celery_app:celery_app worker -Q copy_generation,publish_pipeli
 - `DATABASE_URL`
 - `KV_PUBLISH_ENDPOINT` (optional)
 - `KV_PUBLISH_TOKEN` (optional)
+# workers
+
+Celery worker scaffold.
+
+Queues configured:
+- copy_generation
+- publish_pipeline
+- analytics_processing
