@@ -1,3 +1,7 @@
+import { redirect } from 'next/navigation';
+
+export default function Home() {
+  redirect('/dashboard');
 import { Hero } from "../components/blocks/Hero";
 import { Benefits } from "../components/blocks/Benefits";
 import { SocialProof } from "../components/blocks/SocialProof";
