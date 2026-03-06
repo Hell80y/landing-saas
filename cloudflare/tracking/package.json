@@ -1,10 +1,5 @@
 {
-  "name": "landing-runtime",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "check": "tsc --noEmit"
-  "name": "@landing-saas/cloudflare-landing",
+  "name": "@landing-saas/cloudflare-tracking",
   "private": true,
   "version": "0.1.0",
   "scripts": {

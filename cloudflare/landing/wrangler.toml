@@ -10,3 +10,8 @@ compatibility_date = "2026-01-01"
 binding = "LANDING_KV"
 id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 preview_id = "REPLACE_WITH_YOUR_PREVIEW_KV_NAMESPACE_ID"
+compatibility_date = "2024-08-01"
+
+[[kv_namespaces]]
+binding = "COMBINED_SPEC_KV"
+id = "replace_in_cloudflare"

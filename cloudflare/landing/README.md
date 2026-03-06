@@ -23,3 +23,11 @@ To support a sub-50ms edge target:
 ```bash
 wrangler kv key put --binding LANDING_KV "landing:demo" '{"meta":{"title":"Demo"},"content":{"heroTitle":"Hello from KV"}}'
 ```
+# cloudflare/landing
+
+Landing runtime Cloudflare Worker scaffold.
+
+Constraints:
+- read `CombinedSpec` from KV
+- avoid direct database calls
+- cache responses
